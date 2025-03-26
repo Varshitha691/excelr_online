@@ -1,0 +1,67 @@
+Full stack -->front end + backend (database)
+
+front end :
+     html:hyper text markup language
+     css:cascading style sheets
+     js:java script
+
+backend:
+    python
+    java
+    c++
+
+databases:mysql,oracle,mongodb
+
+
+
+
+web technologies:
+   the technology/tools used to create/develop webpages and web applications.
+
+----------------------------------------------
+Html-->Hyper text Markup language
+    -->used to create the structure of the webpage
+    -->the file must have .html extension
+    -->is introduced by tim berners-lee in 1993
+    -->is a markup language
+    -->is a combination of tags and attributes
+
+tag-->tag is a keyword which is enclosed in ankle brackets <tagName>
+   -->are two types
+   1.paired tag
+   2.unpaired tag
+
+1.paired tag/container tag:
+    
+            <html> --opening tag
+
+            --paired tags---
+
+            </html> --closing tag
+
+2.unpaired tag/non container tag:
+
+        eg:<hr>
+
+---------------------------------------------------------
+
+list:(any content in sequence order)
+
+1.ordered list
+2.unordered list
+3.declaration list
+
+
+1.ordered list:
+     -- a list maintaining order
+     --<ol></ol>
+     --default value is number
+     --<ol type="A"></ol>--type attribute used to change default value
+     --type:a,A,i,I
+    
+
+
+
+extensions:
+    vscode incon
+    live server
