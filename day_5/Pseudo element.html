@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+
+    <style>
+        #p1{
+            background-color: aliceblue;
+        }
+     /* used to select first leter of an element */
+        #p1::first-letter{
+            
+            color:red;
+            font-size:40px;
+        }
+    /* used to select first line of an element*/
+        #p1::first-line{
+            color:blue;
+        }
+    /* used to provide content after the elemnt*/
+
+        #p2::after{
+            content:"😊😊";
+        }
+        /* Windows+. for emoji's*/
+
+        /* used to provide content before the element*/
+
+        #p2::before{
+            content:"😂😂";
+        }
+/* used to select cursor color*/
+        #p1::selection{
+            background-color: brown;
+        }
+/* used to select the numbers of list*/
+        ::marker{
+            color:blueviolet;
+            font-size:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo Element</h1>
+
+    <hr>
+    <p>It is used to add style to the specific part of an element</p>
+    <p>It indicates with ::(double colon)</p>
+
+    <hr>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati consectetur quidem reiciendis. Deserunt perspiciatis, saepe eligendi officia maxime sit quas, facere adipisci accusamus, cupiditate sequi porro provident rerum! Odio consequuntur nam eum iste nihil eius facere perferendis? Dolore sit tenetur, aliquam reiciendis quasi, iste expedita possimus sapiente facilis tempore optio nemo. Autem veniam quas, reiciendis voluptatem eius sunt quaerat esse hic magnam itaque fugit inventore. Obcaecati minus ipsa error totam consectetur optio quis ratione voluptate similique non provident maxime quidem, beatae quaerat molestiae sequi illum dolorum iusto commodi at distinctio accusamus eum. Exercitationem quis ipsa inventore, autem nulla deserunt.</p>
+    
+    <p id="p2">This is a content</p>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+</body>
+    
+</body>
+</html>
