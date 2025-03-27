@@ -1,0 +1,31 @@
+Table and its tags and its attributes
+
+<table></table>--- used to create table
+<caption></caption>-- to provide caption of the table
+<thead></thead>
+
+
+
+
+
+
+
+
+
+rowspan and colspan -- these are the properties of yh and td tags
+rowspan--used to merge the rowspan--used
+colspan--used to merge the column
+
+border,cellpadding,cellspacing,width,height,align
+-----------------------------------------------
+Psuedo element and Pseudo Class
+
+pseudo element:
+    used to select an specific part of an element
+    indicating ::(double colon)
+    ex:
+        ::first-letter,::first-line,::selection,::before,::after,::marker
+
+pseudo class:
+     used to select based on its state
+     indicating
