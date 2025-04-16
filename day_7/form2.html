@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        form{
+            border:2px solid black;
+            width:400px;
+            margin:30px auto;
+            text-align:center;
+        }
+        button{
+            color:turquoise;
+            background-color: blueviolet;
+        }
+
+        fieldset{
+            width:80%;
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+
+
+       <fieldset>
+        <legend>Basic Information</legend>
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Enter your FirstName" id="fname" name="fname">
+        <br><br>
+        <label for="mname">Middle Name</label>
+        <input type="text" placeholder="Enter your MiddleName" id="mname" name="mname">
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Enter your LastName" id="lname" name="lname">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="10" max="45">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="image">Upload Image</label>
+        <input type="file" name="image" id="image" accept="image/*">
+        <!-- <label for="phone">Phone</label> -->
+        <!--<input type="text" name="" id="" value="2638738739739" readonly>
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="text" name="" id="" value="2638738739739" hidden>  -->
+        
+
+        <br><br>
+       
+         </fieldset>
+
+        <fieldset>
+            <legend>Favorites</legend>
+
+            <label for="color">Favorite Color</label>
+            <input type="checkbox" name="red" id="red">
+            <label for="red">Red</label>
+            <input type="checkbox" name="green" id="green">
+            <label for="green">Green</label>
+            <input type="checkbox" name="yellow" id="yellow">
+            <label for="yellow">Yellow</label>
+
+            <br><br>
+
+            <label for="item">Favorite FoodItem</label>
+            <select name="item" id="item" multiple size="2">
+                <option value="">Select food</option>
+
+                <optgroup label="Tiffins">
+                    <option value="idly">Idly</option>
+                    <option value="dosa">Dosa</option>
+                    <option value="puri">Puri</option>
+                </optgroup>
+
+                <optgroup label="Non-veg">
+
+                    <option value="biryani">Biryani</option>
+                    <option value="fried rice">Fried rice</option>
+                </optgroup>
+                
+            </select>
+            <br><br>
+            <label for="subject">Favorite Subject</label>
+            <select name="subject" id="subject" multiple size="2">
+                <option value="maths">Maths</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="english">English</option>
+            </select>
+
+            <br><br>
+
+            <label for="game">Favorite Game</label>
+            <input type="text" name="game" id="game" list="games">
+            <datalist id="games">
+                <option value="cricket"></option>
+                <option value="football"></option>
+                <option value="hockey"></option>
+            </datalist>
+
+
+        </fieldset>
+
+       <fieldset>
+        <legend>Contact Information</legend>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your 10 digit phone number" pattern="[0-9]{10}">
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd" required>
+
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address"></textarea>
+        <br><br>
+       
+     
+       </fieldset>
+       <br>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+
+       
+       
+       
+
+    </form>
+</body>
+</html>

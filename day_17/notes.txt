@@ -1,0 +1,128 @@
+Functions:
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+syntax:
+
+
+
+
+
+
+
+
+//passing arguments
+
+   function funct_name(arg1,arg2.................){
+
+   }
+   funct_Name(arg1,arg2.);
+
+   //return statement
+   function funct_Name(arg1,arg2..........){
+    return result;
+   }
+
+let result=funct_Name(arg1,arg2.........);
+
+=======================================================
+
+2.function expression
+---------------------------------------
+
+syntax:
+     let result=function(arg1,arg2...........){
+
+        return result;
+     }
+
+     result(arg1,arg2............);
+
+==================================
+
+3.arrow functions:
+-----------------------------
+             shorter syntax than regular function
+
+syntax:
+ 
+       let data = ()=>{
+
+       }
+ex:(ar1,ar2)=>{
+    //specific task
+}
+
+========================================
+4.constructor function:
+    -it is a function that is used to create objects
+
+syntax:
+     
+     function Person(name,age){
+        this.name=name;
+        this.age=age;
+     }
+
+     const data=new Person('varshu',20);
+5.Call back function:
+    -it is a function that is passed as an argument to another function
+    -it is a function that is called by another function
+
+syntax:
+
+ function functionName(arg1,arg2,func_2,func_3){
+    //set of sentences that performs a task
+ }
+
+ functionName(arg1,arg2,func_2,func_3);
+
+ ===================================================
+6.Generator function:
+   -it is a function that is used to create iteartors/generators
+
+syntax:
+ 
+   function*functionName(){
+      yield1;
+      .
+      .
+      .
+      yield n;
+   }
+===========================================
+   7.IIFE:
+      -immediately invoked function expression
+      -it is a function that is called immediately after it is defined
+
+   syntax:
+
+   (
+      function(){
+         //set of sentences that performs a task;
+      }
+   )();
+=====================================
+8.Higher order fuctions:
+    -It is a function that is passed as an argument to another function
+    -takes a function as an argument and returns a function
+    -map(),filter(),reduce() are higher order functions
+
+   syntax:
+      function functionName(arg1,arg2,func_2){
+         //set of sentences that performs a task
+         return func_2(arg1,arg2);
+      }

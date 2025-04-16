@@ -1,0 +1,58 @@
+Java script:
+    It is a scripting language
+    It is used to create dynamic and interactive webpages
+    It is a client side language
+    It is used to add behaviour and functionalities to webpages
+    It is synchronous language/it is executed line by line
+    It is case sensitive
+
+
+Javascript also used to develop:
+          1.Angular-->framework
+          2.React-->Library
+          3.Vuejs
+          4.NodeJs
+
+Js current version: ECMAScript 13(ES13)
+ECMA -European Computers Manufacturer Association
+
+If we want to create javascript
+     we need to create a file with ____.js extension
+
+---------------------------------------------------------
+We can include js in 3 ways:
+Inline js
+Internal js
+External js
+
+------------------------------------------------
+Inline js:
+
+<button script=""></button>
+
+Internal js:
+
+<script></script>
+
+External js:
+
+<script src="filename.js"></script>
+
+------------------------------------------------------
+
+Operators in Javascript:
+
+1.Arithmetic Operators:+,=,*./,%,**,++,--
+
+2.Relational Operators:<,>,<=,>=,==,!=,===
+
+3:Logical Operators:&&,||,!
+
+4:Assignment Operators:+=,-=,*=,/=,%=,**=
+
+5.Ternary Operators:operand1?operand2:operand3
+                    condition?value_if_true:value_if_false
+
+6:Bitwise Operators:&,|,^,~,<<,>>
+
+7.typeof Operator: typeof(data)

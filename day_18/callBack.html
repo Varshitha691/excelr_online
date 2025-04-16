@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function boilWater(callback){
+            setTimeout(()=>{
+                console.log("Boiling water....");
+                callback();
+            },1000);
+
+          
+        }
+        function brewCoffee(callback){
+            setTimeout(()=>{
+            console.log("Brewing coffee...");
+            callback();
+            },2000);
+        }
+        function addSugarAndMilk(callback){
+            setTimeout(()=>{
+                console.log("Adding sugar and milk");
+                callback();
+            },1500);
+           
+        }
+        function pourInCup(callback){
+            setTimeout(()=>{
+                console.log("Pouring into cup");
+                callback();
+            },3000);
+            
+        }
+        function serveCoffee(){
+            setTimeout(()=>{
+                console.log("Serving coffee");
+            },1000);
+            
+        }
+         
+        boilWater(
+            ()=>{
+                brewCoffee(()=>{
+                    addSugarAndMilk(()=>{
+                        pourInCup(()=>{
+                            serveCoffee();
+                        });
+                    });
+                });
+            });
+        
+        console.log("Coffee is ready to be served");
+    </script>
+</body>
+</html>

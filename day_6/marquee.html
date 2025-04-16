@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Task</title>
+
+    <link rel="icon" href="./media/download.jpg">
+    <style>
+        marquee{
+            border:2px solid blue;
+        }
+        img{
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marquee Task</h1>
+    <p>It is used to scroll the content</p>
+    <hr>
+
+    <p>This is a text</p>
+    <!-- default direction is left -->
+
+    <marquee behavior="" direction="">This is a text</marquee>
+    <marquee behavior="" direction="right">This is a text</marquee>
+    <marquee behavior="" direction="up" height="100px">This is a text</marquee>
+    <marquee behavior="" direction="down" height="100px">This is a text</marquee>
+
+<!-- default behaviour is scroll -->
+    <marquee behavior="scroll" direction="left" scrollamount="20">
+        <img src="./media/download.jpg" alt="">
+    </marquee>
+
+    <marquee behavior="slide" direction="left" scrollamount="20">
+        <img src="./media/download.jpg" alt="">
+    </marquee>
+
+    <marquee behavior="alternate" direction="left" scrollamount="20">
+        <img src="./media/download.jpg" alt="">
+    </marquee>
+    
+    
+    
+</body>
+</html>
