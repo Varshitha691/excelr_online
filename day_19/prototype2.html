@@ -11,6 +11,9 @@
             this.fName=firstName;
             this.lName=lastName;
             this.year=yearofBirth;
+            this.age=  function(){
+                return new Date().getFullYear()-this.year;
+              };
 
             
         }
@@ -24,6 +27,10 @@
         console.log(s1.getFullName());
         console.log(s2.getFullName());
         console.log(s3.getFullName());
+        console.log(s1.age());
+        console.log(s2.age());
+        console.log(s3.age());
+
 
     </script>
 </body>
