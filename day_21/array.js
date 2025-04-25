@@ -119,4 +119,4 @@ let result=arr20.every((e,index,arr20)=>{
     return typeof e==='number';
 
 })
-console.log(result);
+console.log(result);//false

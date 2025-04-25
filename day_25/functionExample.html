@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person1={
+            name:'varshu'
+        }
+
+        let person2={
+            name:'shashi'
+        }
+
+        function greet(){
+            console.log('hello',this.name);
+        }
+        greet.call(person1);
+    </script>
+</body>
+</html>
